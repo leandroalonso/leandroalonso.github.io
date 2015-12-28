@@ -204,3 +204,47 @@ a {
     }
   }
 }
+
+/* Mobile */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+  #menu-toggle {
+    top: 15px;
+    left: 15px
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  #logo {
+    h1 {
+      font-size: 4em;
+
+      span {
+        display: block;
+      }
+    }
+  }
+
+  #belief {
+    display: none !important;
+    border: 0;
+    margin: 0;
+
+    span {
+      font-size: 1.5em;
+      display: block;
+      margin: 0 5px;
+      text-align: center;
+    }
+  }
+
+  h2 {
+    font-size: 0.8em;
+  }
+
+}
