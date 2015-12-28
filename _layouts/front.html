@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>leandro alonso - full stack developer</title>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ "/css/io.css" | prepend: site.baseurl }}">
+</head>
+<body>
+
+  <a id="menu-toggle"><span id="menu-icon"></span></a>
+
+  <div class="container horizontal-center">
+
+    <div id="logo">
+    
+      <h1>leandro <span>alonso</span></h1>
+
+      <div id="belief">
+				<span class="animated fadeInRight">simplicity</span>
+				<span class="animated fadeInRight">form</span>
+				<span class="animated fadeInRight">function</span>
+				<span style="display:block;height:1px;margin-left:15px;">simplicity</span>
+			</div>
+
+    </div>
+
+    <h2>I'm a passionate Full Stack Developer at <a href="https://www.thoughtworks.com/">ThoughtWorks</a>.</h2>
+
+  </div>
+
+  <div id="menu">
+    <div class="container horizontal-center">
+      <ul>
+        <li><a href="/h3/">Blog</a></li>
+        <li><a href="/h3/about-me/">About</a></li>
+        <li><a href="https://twitter.com/leandrow">Follow me</a></li>
+        <li><a href="http://br.linkedin.com/in/leandroalonso/">LinkedIn</a></li>
+        <li><a href="mailto:contato@leandro.io">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+      if (this.className == 'close') {
+        this.className = '';
+        document.getElementById('menu').style.visibility = 'hidden'
+        document.getElementById('menu').style.opacity = '0'
+      } else {
+        this.className = 'close';
+        document.getElementById('menu').style.visibility = 'visible'
+        document.getElementById('menu').style.opacity = '1'
+      }
+    }, false);
+  </script>
+
+</body>
+</html>
