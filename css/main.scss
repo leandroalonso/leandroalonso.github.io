@@ -2,7 +2,216 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+@import 'common',
+        'menu';
+
+$blog-width: 820px;
+
+.container {
+  width: $blog-width;
+}
+
+header {
+  margin: 30px 0;
+
+  nav {
+    float: right;
+    margin-top: 15px;
+
+    a {
+      color: $second-color;
+      margin-left: 40px;
+      transition: color .25s;
+    }
+
+    a:hover {
+      color: $link-color;
+    }
+  }
+}
+
+#logo {
+  color: #333;
+  margin: 0;
+  float: left;
+
+  h1 {
+    font-size: 42px;
+    margin: 0;
+
+    span {
+      color: $second-color;
+      transition: margin .25s;
+    }
+  }
+
+  h1:hover span {
+    margin-left: -4px;
+  }
+}
+
+.divider {
+  display: block;
+  width: 100px;
+  border-bottom: 2px solid rgba(43, 48, 51, 0.1);
+  margin: 25px 0;
+}
+
+#home {
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .post-list {
+    margin-top: 100px;
+  }
+
+  li {
+    list-style: none;
+    width: 360px;
+    display: inline-block;
+    margin-bottom: 100px;
+    height: 280px;
+
+    h2 {
+      font-weight: 500;
+      margin: 0;
+
+      a {
+        color: $main-color;
+        transition: .25s;
+      }
+
+      a:hover {
+        color: $link-color;
+      }
+    }
+
+    p {
+      color: $second-color;
+      line-height: 1.45em;
+      height: 10.15em;
+      overflow: hidden;
+    }
+
+    .post-meta {
+      text-align: right;
+      display: block;
+      color: $second-color;
+    }
+  }
+
+  li:nth-child(odd) {
+    margin-right: 95px;
+  }
+}
+
+#page {
+  margin-top: 100px;
+  
+  header {
+    margin-bottom: 100px;
+  }
+
+  h1 {
+    font-weight: 500;
+    margin: 0;
+
+    a {
+      color: $main-color;
+      transition: .25s;
+    }
+
+    a:hover {
+      color: $link-color;
+    }
+  }
+}
+
+footer {
+  background: #eff1f3;
+  color: $second-color;
+  text-align: center;
+  padding: 30px 0;
+
+  p {
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  p:nth-child(2) {
+    color: #666;
+  }
+
+  a {
+    color: #666;
+    border-bottom: 1px solid #ddd;
+  }
+}
+
+.post {
+  header {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    h1 {
+      font-size: 4em;
+      margin: 0 0 10px;
+    }
+
+    .post-meta {
+      color: $second-color;
+    }
+  }
+}
+
+.post, #page {
+  p:first-child {
+    margin-top: -2em;
+  }
+
+  p, ul, ol, h3 {
+    width: $blog-width;
+    margin: 2em auto;
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 1.8em;
+    color: #777;
+  }
+
+  h3 {
+    font-size: 2em;
+    margin: 0 auto;
+    color: $main-color;
+  }
+
+  .center-image {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.highlight {
+  margin: -1.3em 0;
+  background: #f8f8f8;
+
+  pre {
+    width: $blog-width;
+    margin: 0 auto;
+    padding: 2em 0;
+  }
+}
+
+#comments {
+  margin-bottom: 3em;
+
+  h3 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "syntax-highlighting"
-;
+@import "syntax-highlighting";

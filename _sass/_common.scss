@@ -1,0 +1,30 @@
+$main-color: #333;
+$second-color: #8e9aa1;
+$link-color: #49b4ff;
+
+body {
+	font-family: 'Raleway';
+	color: $main-color;
+	margin: 0;
+}
+
+.horizontal-center {
+  position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+a {
+  color: $link-color;
+	text-decoration: none;
+}
+
+.container {
+  width: 990px;
+	margin: 0 auto;
+}
+
+.clear {
+  clear: both;
+}
