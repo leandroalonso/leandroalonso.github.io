@@ -1,8 +1,19 @@
 ---
+title: 'Por dentro do TB: sistemas de cache'
 layout: post
-title:  "Por dentro do TB: sistemas de cache"
-date:   2014-09-08 13:08:55 -0200
-categories: jekyll update
+permalink: /por-dentro-do-tb-sistemas-de-cache/
+dsq_thread_id:
+  - 2994017584
+categories:
+  - Otimização
+tags:
+  - Cache
+  - CloudFlare
+  - Otimização
+  - Servidor
+  - Tecnoblog
+  - Varnish
+  - Wordpress
 ---
 O [WordPress][wordpress] é um sistema de gerenciamento de conteúdo (CMS) que em baixos níveis de tráfego é capaz de atender à demanda sem maiores problemas, mas quando os acessos aumentam substancialmente o panorama tende a mudar. Some isso aos variados plugins (que adicionam mais e mais camadas de complexidade) e temos um sistema ainda mais pesado.
 

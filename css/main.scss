@@ -168,7 +168,7 @@ footer {
 }
 
 .post, #page {
-  p:first-child {
+  .post-content > p:first-child {
     margin-top: -2em;
   }
 
@@ -179,6 +179,18 @@ footer {
     font-weight: 300;
     line-height: 1.8em;
     color: #777;
+  }
+
+  blockquote {
+    width: $blog-width;
+    margin: 2em auto;
+    border-left: 1px solid rgba(43, 48, 51, 0.1);
+
+    p {
+      box-sizing: border-box;
+      color: #888;
+      padding-left: 20px;
+    }
   }
 
   h3 {
@@ -215,3 +227,115 @@ footer {
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "syntax-highlighting";
+
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+
+  $mobile-width: 90%;
+
+  #menu-toggle {
+    top: 15px;
+    left: 15px
+  }
+
+  .container, #home li {
+    width: $mobile-width;
+  }
+
+  #home li {
+    margin-right: 0 !important;
+    width: 100%;
+    height: auto;
+
+    p {
+      height: auto;
+    }
+  }
+
+  header {
+    margin-top: 0;
+
+    .container {
+      text-align: center;
+    }
+
+    #logo {
+      display: inline-block;
+      margin: 0 auto;
+      float: none;
+    }
+
+    nav {
+      float: none;
+
+      a {
+        margin: 0 10px;
+      }
+    }
+  }
+
+  #home, #page {
+    h2, .post-meta, h1 {
+      text-align: center !important;
+    }
+
+    .divider {
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  .post, #page {
+    .post-content > p:first-child {
+      margin-top: -2em;
+    }
+
+    p, ul, ol, h3 {
+      width: $mobile-width;
+      margin: 2em auto;
+      font-size: 1.3em;
+      font-weight: 300;
+      line-height: 1.8em;
+      color: #777;
+    }
+
+    blockquote {
+      width: $mobile-width;
+      margin: 2em auto;
+      border-left: 1px solid rgba(43, 48, 51, 0.1);
+
+      p {
+        box-sizing: border-box;
+        color: #888;
+        padding-left: 20px;
+      }
+    }
+
+    h3 {
+      font-size: 2em;
+      margin: 0 auto;
+      color: $main-color;
+    }
+
+    img {
+      max-width: 90%;
+      height: auto;
+    }
+
+    header {
+      h1 {
+        font-size: 3em;
+      }
+    }
+
+    figure {
+      overflow-x: scroll;
+
+      pre {
+        width: $mobile-width;
+      }
+    }
+  }
+
+}
