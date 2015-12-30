@@ -24,6 +24,10 @@ header {
       transition: color .25s;
     }
 
+    a.current {
+      color: $main-color;
+    }
+
     a:hover {
       color: $link-color;
     }
@@ -268,6 +272,7 @@ and (max-width : 480px) {
 
     nav {
       float: none;
+      margin: 30px 0 -30px 0;
 
       a {
         margin: 0 10px;
