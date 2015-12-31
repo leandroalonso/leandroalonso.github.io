@@ -1,7 +1,7 @@
 ---
 title: WordPress + Last.Fm = iLast.Fm
 layout: post
-permalink: /wordpress-lastfm/
+permalink: /h3/wordpress-lastfm/
 categories:
   - Outros
 tags:

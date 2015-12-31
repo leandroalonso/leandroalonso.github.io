@@ -1,7 +1,7 @@
 ---
 title: 'Spaghetti*: Framework PHP MVC brasileiro'
 layout: post
-permalink: /spaghetti-framework-php-mvc-brasileiro/
+permalink: /h3/spaghetti-framework-php-mvc-brasileiro/
 categories:
   - Outros
 tags:

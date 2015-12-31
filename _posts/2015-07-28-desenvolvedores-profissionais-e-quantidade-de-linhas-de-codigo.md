@@ -1,7 +1,7 @@
 ---
 title: Devs profissionais e quantidade de linhas de código
 layout: post
-permalink: /desenvolvedores-profissionais-e-quantidade-de-linhas-de-codigo/
+permalink: /h3/desenvolvedores-profissionais-e-quantidade-de-linhas-de-codigo/
 categories:
   - Developing
 ---

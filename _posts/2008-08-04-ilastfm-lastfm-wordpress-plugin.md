@@ -1,7 +1,7 @@
 ---
 title: 'iLast.Fm &#8211; WordPress Last.Fm Plugin'
 layout: post
-permalink: /ilastfm-lastfm-wordpress-plugin/
+permalink: /h3/ilastfm-lastfm-wordpress-plugin/
 categories:
   - Outros
 tags:

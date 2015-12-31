@@ -1,7 +1,7 @@
 ---
 title: Encontre os melhores apps para iPhone e iPod touch
 layout: post
-permalink: /encontre-os-melhores-apps-para-iphone-e-ipod-touch/
+permalink: /h3/encontre-os-melhores-apps-para-iphone-e-ipod-touch/
 categories:
   - Outros
 tags:

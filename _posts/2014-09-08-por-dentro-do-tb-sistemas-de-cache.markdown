@@ -1,9 +1,7 @@
 ---
 title: 'Por dentro do TB: sistemas de cache'
 layout: post
-permalink: /por-dentro-do-tb-sistemas-de-cache/
-dsq_thread_id:
-  - 2994017584
+permalink: /h3/por-dentro-do-tb-sistemas-de-cache/
 categories:
   - Otimização
 tags:

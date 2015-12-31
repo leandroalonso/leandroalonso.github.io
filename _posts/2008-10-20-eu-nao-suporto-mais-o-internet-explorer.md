@@ -1,7 +1,7 @@
 ---
 title: Eu não suporto mais o Internet Explorer
 layout: post
-permalink: /eu-nao-suporto-mais-o-internet-explorer/
+permalink: /h3/eu-nao-suporto-mais-o-internet-explorer/
 categories:
   - Outros
 tags:

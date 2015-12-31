@@ -1,7 +1,7 @@
 ---
 title: 'Gmail.app &#8211; Deixe seu Gmail com a cara do Mac'
 layout: post
-permalink: /gmailapp-deixe-seu-gmail-com-a-cara-do-mac/
+permalink: /h3/gmailapp-deixe-seu-gmail-com-a-cara-do-mac/
 categories:
   - Outros
 tags:

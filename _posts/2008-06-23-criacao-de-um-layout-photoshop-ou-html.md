@@ -2,7 +2,7 @@
 title: 'Criação de um layout: Photoshop ou HTML?'
 author: leandroalonso
 layout: post
-permalink: /criacao-de-um-layout-photoshop-ou-html/
+permalink: /h3/criacao-de-um-layout-photoshop-ou-html/
 dsq_thread_id:
   - 2947861946
 categories:

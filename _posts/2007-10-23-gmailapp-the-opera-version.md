@@ -2,7 +2,7 @@
 title: 'Gmail.app &#8211; The Opera Version!'
 author: leandroalonso
 layout: post
-permalink: /gmailapp-the-opera-version/
+permalink: /h3/gmailapp-the-opera-version/
 dsq_thread_id:
   - 2947859620
 categories:
