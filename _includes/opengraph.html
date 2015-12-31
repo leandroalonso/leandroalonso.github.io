@@ -24,7 +24,7 @@
 {% if page.image %}
   <meta content="/assets/{{ page.image }}" property="og:image">
 {% else %}
-  <meta content="/assets/img_facebook.png" property="og:image">
+  <meta property="og:image" content="http://leandro.io/assets/img_facebook.png" />
 {% endif %}
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
