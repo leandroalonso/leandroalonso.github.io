@@ -173,12 +173,12 @@ footer {
 
 .post, #page {
   .post-content > p:first-child {
-    margin-top: -2em;
+    margin-top: -1.3em;
   }
 
   p, ul, ol, h3 {
     width: $blog-width;
-    margin: 2em auto;
+    margin: 1.3em auto;
     font-size: 1.3em;
     font-weight: 300;
     line-height: 1.8em;
