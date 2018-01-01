@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Hat-Trick is a blog by Leandro Alonso, a full stack developer
   based on Belo Horizonte, Brazil.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://leandro.io" # the base hostname & protocol for your site
+url: "https://leandroalonso.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 permalink: /h3/:title
